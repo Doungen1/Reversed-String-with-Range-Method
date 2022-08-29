@@ -1,0 +1,13 @@
+# Write your reverse_string function here:
+def reverse_string(word):
+  new_string = ""
+  for i in range((len(word)-1), -1, -1):
+    new_string += word[i]
+  return new_string
+# Uncomment these function clls to test your  function:
+print(reverse_string("Codecademy"))
+# should print ymedacedoC
+print(reverse_string("Hello world!"))
+# should print !dlrow olleH
+print(reverse_string(""))
+# should print
